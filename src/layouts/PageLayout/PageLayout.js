@@ -5,7 +5,7 @@ import './PageLayout.scss'
 
 export const PageLayout = ({ children }) => (
   <div className='container'>
-    <h1>Artist Events</h1>
+    <h1>See What Artist's Are Up To</h1>
     <div className='page-layout__viewport'>
       {children}
     </div>

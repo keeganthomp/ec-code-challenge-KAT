@@ -5,7 +5,7 @@ export function getArtistEvents (artist) {
 }
 
 export function getArtist (artist) {
-  return axios.get(`https://rest.bandsintown.com/artists/${artist}`)
+  return axios.get(`https://rest.bandsintown.com/artists/${artist}?app_id=codechallenge`)
 }
 
 // TODO add getArtistInfo
