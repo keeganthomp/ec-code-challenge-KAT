@@ -55,7 +55,7 @@ h2 {
 
 .artist-search {
   border-radius: 10px;
-  border: 1px solid lightcoral;
+  border: 1px solid lightseagreen;
   text-align: center;
 }
 
@@ -75,16 +75,16 @@ h2 {
 
 button {
   background: none;
-  border: 2px solid lightcoral;
+  border: 2px solid lightseagreen;
   border-radius: 10px;
   transition: all .5s;
   text-transform: uppercase;
-  color: lightcoral;
+  color: lightseagreen;
 }
 
 button:hover {
   transition: all .5s;
-  background: lightcoral;
+  background: lightseagreen;
   color: white;
   cursor: pointer;
   box-shadow: 5px 5px 4px #888888;
@@ -103,4 +103,9 @@ button:focus {
 .loading {
   text-align: center;
   font-size: 2.5rem;
+}
+
+.toggle-venue {
+  width: 50%;
+  margin: 0 auto;
 }

@@ -39,8 +39,8 @@ export class EventsResults extends Component {
     return (
       <div className="main-container">
         <div className="btn-container">
-          <button onClick={() => this.props.sortByVenue()}>
-            Toggle sort events by venue name
+          <button className="toggle-venue" onClick={() => this.props.sortByVenue()}>
+            Toggle events by venue name
           </button>
           <br />
           <Link to={"/artist/" + this.props.artist}>
