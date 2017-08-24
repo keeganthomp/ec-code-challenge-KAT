@@ -19,9 +19,9 @@ export class EventsResults extends Component {
 
   render () {
     return (
-      <div>
+      <div className="main-form">
         <form onSubmit={this.handleSubmit}>
-          <input placeholder='Enter Artist Name' type='text' value={this.state.artist} onChange={this.onTypeChange} />
+          <input className="artist-search" placeholder='Enter Artist Name' type='text' value={this.state.artist} onChange={this.onTypeChange} />
         </form>
         <h6>Artist: {this.props.artist}</h6>
       </div>

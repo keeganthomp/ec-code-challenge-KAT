@@ -12,10 +12,72 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: 'Raleway'
 }
 
 *,
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main-container {
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.edit-btn {
+  background: none;
+  border: 2px solid lightgrey;
+  font-size: .5rem;
+  border-radius: 10px;
+  transition: all .5s;
+  text-transform: uppercase;
+  color: lightgray;
+}
+
+.main-form {
+  text-align: center;
+}
+
+.artist-search {
+  border-radius: 10px;
+  border: 1px solid lightcoral;
+  text-align: center;
+}
+
+.artist-search:active {
+  outline:none;
+  border:none;
+}
+
+.artist-search:focus {
+  outline:none;
+  border:none;
+}
+
+button {
+  background: none;
+  border: 2px solid lightcoral;
+  border-radius: 10px;
+  transition: all .5s;
+  text-transform: uppercase;
+  color: lightcoral;
+}
+
+button:hover {
+  transition: all .5s;
+  background: lightcoral;
+  color: white;
+  cursor: pointer;
+  box-shadow: 5px 5px 4px #888888;
 }
