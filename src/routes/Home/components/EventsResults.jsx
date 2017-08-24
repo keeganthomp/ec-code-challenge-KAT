@@ -32,7 +32,7 @@ export class EventsResults extends Component {
 
      if(this.props.isLoading){
         return(
-          <div>Loading</div>
+          <div className="loading">Loading...</div>
         )
       }
 
