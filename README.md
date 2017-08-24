@@ -1,6 +1,6 @@
 <ul>
-      <li>Install moment and use to format timestamps to be Month/Day/Year and add days until event</li>
-      <li>Fix any lint errors in /routes/Home</li>
+      <li>~~Install moment and use to format timestamps to be Month/Day/Year and add days until event~~</li>
+      <li>~~Fix any lint errors in /routes/Home~~</li>
       <li>Create actions/handlers to remove events (hook up button)</li>
       <li>Create actions/handlers to move an event up or down the list (hook up those buttons)</li>
       <li>Make sort by venue name button work</li>
